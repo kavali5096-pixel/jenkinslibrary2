@@ -1,6 +1,5 @@
-def gitDownload(repo) {
+def gitDownload(repo) 
+{
+    git "https://github.com/kavali5096-pixel/${repo}.git"
 
-    git url: "https://github.com/kavali5096-pixel/${repo}.git",
-        branch: 'main'
 }
-
